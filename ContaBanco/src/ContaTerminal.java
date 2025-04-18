@@ -1,4 +1,3 @@
-package br.danielkgm;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -17,8 +16,11 @@ public class ContaTerminal {
         System.out.println("Por favor, digite o número da Conta !");
         numero = sc.nextInt();
 
+        sc.nextLine();
         System.out.println("Por favor, digite o nome do Cliente !");
-        nomeCliente = sc.next();
+        nomeCliente = sc.nextLine();
+
+        sc.close();
 
         System.out.println(String.format(
                 "Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque",
