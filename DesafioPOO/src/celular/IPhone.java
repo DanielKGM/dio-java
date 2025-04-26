@@ -8,6 +8,7 @@ import celular.interfaces.NavegadorInternet;
 import celular.interfaces.ReprodutorMusical;
 import recursos.Album;
 import recursos.Musica;
+import recursos.PaginaInternet;
 
 public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
@@ -78,5 +79,4 @@ public class IPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
         }
     }
 
-    // Getters e outros métodos podem ser adicionados conforme necessário
 }
